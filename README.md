@@ -24,4 +24,4 @@ else
 Download the `.pbix` file and open it in Power BI Desktop.
 ## Dashboard Preview
 
-![Dashboard](./screenshots/overview.png)
+![Dashboard](./overview.png)
