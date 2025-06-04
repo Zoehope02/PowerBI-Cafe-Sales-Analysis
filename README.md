@@ -20,3 +20,6 @@ if [Total Spent] = null and
 else
     [Total Spent]
 ```
+## How to Use
+Download the `.pbix` file and open it in Power BI Desktop.
+
