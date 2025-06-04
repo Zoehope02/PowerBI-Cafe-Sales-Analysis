@@ -25,3 +25,20 @@ Download the `.pbix` file and open it in Power BI Desktop.
 ## Dashboard Preview
 
 ![Dashboard](./overview.png)
+
+## INSIGHTS FROM DASHBOARD
+### Key Business Insights from Café Sales Data
+**Salad Tops Revenue Generation**
+Salad is the café’s top-performing item, generating a total of $15,055 in revenue. This surpasses the second highest-grossing item — the sandwich — which brings in $11,808, revealing a notable revenue gap of over $3,000.
+Both items are primarily purchased in-store, indicating that customers prefer to enjoy these meals on-site, possibly due to freshness or presentation quality.
+
+**Balanced Payment Preferences**
+There is a relatively even distribution across the three main payment methods: Credit Card, Digital Wallet, and Cash. This suggests that the café caters well to diverse customer preferences and that no single payment method dominates, highlighting the importance of maintaining multiple secure payment options.
+
+**July Sees Peak Sales Volume**
+Sales data indicates that July experiences the highest volume of transactions across multiple items. This peak aligns with the summer season, suggesting a seasonal increase in customer traffic and potentially higher demand for lighter, refreshing items like salads, smoothies, and juices. The café may consider seasonal promotions or extended hours during this period to maximize sales.
+
+### Proposals
+To attract more customers and boost coffee sales, I recommend that the café expand its variety of coffee options. A diverse coffee menu could appeal to a wider range of customer preferences and increase overall purchases.
+
+Additionally, the sales data reveals that cookies generate the least revenue and are the only item where total sales equal total quantity sold. This suggests that the café may not be profiting from cookie sales. To address this, I recommend a **modest price increase—enough** to ensure some profit without discouraging purchases.
