@@ -51,6 +51,7 @@ SUM(dirty_cafe_sales[Total Spent])
 -- 5. Total Transactions
 Total Transactions = 
 COUNTROWS(dirty_cafe_sales)
+```
 
 
 
