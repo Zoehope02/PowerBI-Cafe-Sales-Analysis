@@ -1,7 +1,7 @@
 # PowerBI-Cafe-Sales-Analysis ☕
 This project focused on data cleaning using a 10,000-row synthetic cafe sales dataset intentionally filled with missing values, inconsistencies, and errors to simulate real-world scenarios for cleaning and exploratory data analysis (EDA).
 
-# Project Objective
+## Project Objective
 To analyze and compare customer purchasing behavior between in-store and takeaway transactions at a café using Power BI. This project aims to uncover sales trends, total quantities sold, and transactional patterns to provide actionable insights that support data-driven decision-making for operational and marketing improvements
 
 **Data Cleaning Steps:**
