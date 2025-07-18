@@ -1,4 +1,4 @@
-# PowerBI-Cafe-Sales-Analysis
+# PowerBI-Cafe-Sales-Analysis ☕
 This project focused on data cleaning using a 10,000-row synthetic cafe sales dataset intentionally filled with missing values, inconsistencies, and errors to simulate real-world scenarios for cleaning and exploratory data analysis (EDA).
 Here’s a clear and concise way to state your data cleaning steps:
 
@@ -21,18 +21,37 @@ else
     [Total Spent]
 ```
 
-## Measures I created
-1. Instore Transactions = CALCULATE(
+## 📊 Measures I Created
+
+This section highlights key DAX measures I created to analyze customer purchasing behavior using the `dirty_cafe_sales` dataset. These measures were used in Power BI to build visuals that compare takeaway vs in-store activity, as well as track overall performance.
+
+```DAX
+-- 1. In-store Transactions
+Instore Transactions = 
+CALCULATE(
     COUNTROWS(dirty_cafe_sales), 
     'dirty_cafe_sales'[Location] = "In-store"
 )
-2. TakeAway Transactions = CALCULATE(
+
+-- 2. Takeaway Transactions
+TakeAway Transactions = 
+CALCULATE(
     COUNTROWS(dirty_cafe_sales), 
     'dirty_cafe_sales'[Location] = "Takeaway"
 )
-3. Total Quantity Sold = SUM(dirty_cafe_sales[Quantity])
-4. Total Sales = SUM(dirty_cafe_sales[Total Spent])
-5. Total Transactions = COUNTROWS(dirty_cafe_sales)
+
+-- 3. Total Quantity Sold
+Total Quantity Sold = 
+SUM(dirty_cafe_sales[Quantity])
+
+-- 4. Total Sales
+Total Sales = 
+SUM(dirty_cafe_sales[Total Spent])
+
+-- 5. Total Transactions
+Total Transactions = 
+COUNTROWS(dirty_cafe_sales)
+
 
 
 ## How to Use
