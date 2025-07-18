@@ -4,6 +4,16 @@ This project focused on data cleaning using a 10,000-row synthetic cafe sales da
 ## Project Objective
 To analyze and compare customer purchasing behavior between in-store and takeaway transactions at a café using Power BI. This project aims to uncover sales trends, total quantities sold, and transactional patterns to provide actionable insights that support data-driven decision-making for operational and marketing improvements
 
+## Steps Taken
+- Imported and explored the `dirty_cafe_sales` dataset  
+- Cleaned and prepared the data for analysis  
+- Created key DAX measures (In-store/Takeaway Transactions, Total Sales, Quantity Sold)  
+- Built interactive visuals (bar charts, cards, pie charts)  
+- Added filters and slicers for dynamic exploration  
+- Designed a clean, user-friendly dashboard layout  
+- Published the report to Power BI Service  
+- Documented key insights from the analysis  
+
 **Data Cleaning Steps:**
 
 1. **Handled Missing and Invalid Values:** Replaced empty values, as well as entries labeled `'unknown'` and `'error'`, with `'Other'` in the `Item`, `Location`, and `Payment Method` columns.
