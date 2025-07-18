@@ -26,29 +26,29 @@ else
 This section highlights key DAX measures I created to analyze customer purchasing behavior using the `dirty_cafe_sales` dataset. These measures were used in Power BI to build visuals that compare takeaway vs in-store activity, as well as track overall performance.
 
 ```DAX
--- 1. In-store Transactions
+1. In-store Transactions
 Instore Transactions = 
 CALCULATE(
     COUNTROWS(dirty_cafe_sales), 
     'dirty_cafe_sales'[Location] = "In-store"
 )
 
--- 2. Takeaway Transactions
+2. Takeaway Transactions
 TakeAway Transactions = 
 CALCULATE(
     COUNTROWS(dirty_cafe_sales), 
     'dirty_cafe_sales'[Location] = "Takeaway"
 )
 
--- 3. Total Quantity Sold
+3. Total Quantity Sold
 Total Quantity Sold = 
 SUM(dirty_cafe_sales[Quantity])
 
--- 4. Total Sales
+4. Total Sales
 Total Sales = 
 SUM(dirty_cafe_sales[Total Spent])
 
--- 5. Total Transactions
+5. Total Transactions
 Total Transactions = 
 COUNTROWS(dirty_cafe_sales)
 ```
