@@ -20,6 +20,21 @@ if [Total Spent] = null and
 else
     [Total Spent]
 ```
+
+## Measures I created
+1. Instore Transactions = CALCULATE(
+    COUNTROWS(dirty_cafe_sales), 
+    'dirty_cafe_sales'[Location] = "In-store"
+)
+2. TakeAway Transactions = CALCULATE(
+    COUNTROWS(dirty_cafe_sales), 
+    'dirty_cafe_sales'[Location] = "Takeaway"
+)
+3. Total Quantity Sold = SUM(dirty_cafe_sales[Quantity])
+4. Total Sales = SUM(dirty_cafe_sales[Total Spent])
+5. Total Transactions = COUNTROWS(dirty_cafe_sales)
+
+
 ## How to Use
 Download the `.pbix` file and open it in Power BI Desktop.
 ## Dashboard Preview
