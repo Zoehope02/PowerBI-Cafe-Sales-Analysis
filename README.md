@@ -21,7 +21,7 @@ else
     [Total Spent]
 ```
 
-## 📊 Measures I Created
+## 📊 DAX Measures Created
 
 This section highlights key DAX measures I created to analyze customer purchasing behavior using the `dirty_cafe_sales` dataset. These measures were used in Power BI to build visuals that compare takeaway vs in-store activity, as well as track overall performance.
 
